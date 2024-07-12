@@ -1,0 +1,30 @@
+* {
+    margin : 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin: 20px;
+}
+
+.content {
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.project-container {
+    border: 1px solid red;
+    flex: 1;
+}
+
+#add-button {
+    color:lightgreen;
+    background-color:green;
+    align-self: end;
+}
