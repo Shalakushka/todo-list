@@ -1,0 +1,31 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Todo List Webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shalakushka/todo-list.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "webpage"
+  ],
+  "author": "Shalakushka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shalakushka/todo-list/issues"
+  },
+  "homepage": "https://github.com/Shalakushka/todo-list#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
