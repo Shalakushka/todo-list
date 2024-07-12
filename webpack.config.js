@@ -15,5 +15,13 @@ module.exports = {
             template: './src/index.html',
             inject: 'head'
         }),
-      ],
+    ],
+    module: {
+        rules: [
+          {
+            test: /\.css$/i,
+            use: ['style-loader', 'css-loader'],
+          },
+        ],
+    },
 };
